@@ -23,6 +23,10 @@ To run the dashboard for visualizing the clusters, within the container run:
 
 Then acess: `localhost:8852` on your browser.
 
+The data for the results here presented came from the following Kaggle dataset:
+
+https://www.kaggle.com/datasets/umairshahpirzada/birds-20-species-image-classification
+
 ![image](https://github.com/user-attachments/assets/dcbd9d4b-7e24-4310-9db2-4acf7eaa789d)
 
 

@@ -1,8 +1,8 @@
 Cluster and visualize similar images. Feature extraction with pre-trained models from TensorFlow.
 
-#### Suggested way to run project
+#### Suggested way to run the project
 
-It is suggested to run with docker. Adapt the following command:
+It is suggested to run with docker, using the base image `tensorflow/tensorflow:latest-gpu-jupyter`. Adapt the following command:
 
 `sudo docker run --runtime=nvidia --gpus all --shm-size 8G --name keras_jupyter_birds -p 8888:8888 -p 8852:8851 -v {your_repository_dir}:/tf/birds  tensorflow/tensorflow:latest-gpu-jupyter`
 
@@ -14,8 +14,8 @@ Then:
 
 #### Overall structure
 
-In the Jupyter Notebook - Feature Extraction - you will be able obtain the Principal Components from VGG16 feature extractions on images present on `/data`. You will also be able to do elbow analysis to figure out how many different clusters are adequate for dataset.
-The output of this phase is a csv with the belonging cluster of each image and their first 3 main dimensions from Principal Component Analysis.
+In the Jupyter Notebook - Feature Extraction - you will be able obtain the Principal Components from VGG16 feature extractions on images present on `/data`. You will also be able to conduct elbow analysis to figure out how many different clusters are adequate for the dataset.
+The output of this phase is a csv with the belonging cluster of each image and their first 3 main dimensions from Principal Component Analysis for further plotting.
 
 To run the dashboard for visualizing the clusters, within the container run:
 

@@ -27,7 +27,7 @@ The data for the results here presented came from the following Kaggle dataset:
 
 https://www.kaggle.com/datasets/umairshahpirzada/birds-20-species-image-classification
 
-![image](https://github.com/user-attachments/assets/dcbd9d4b-7e24-4310-9db2-4acf7eaa789d)
+[Clustering Birds.webm](https://github.com/user-attachments/assets/8b09b372-ddc8-478b-9590-fd43d4db85b0)
 
 
 
